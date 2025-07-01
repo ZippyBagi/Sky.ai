@@ -4,6 +4,18 @@ Just a heads up, this is not that simple of an installation, mostly because I do
 
 FOR ARCH LINUX ONLY!!!
 
+
+#I Setting up the venv
+
+1. create a new python virtual environment with python venv -m venv
+
+2. source into the venv with: source venv/bin/activate
+
+3. Install the contets of the requirements.txt with pip install
+
+
+#II Getting the rest working
+
 1. Download the latest version of python
 
 2. Download Ollama (sudo pacman -Syu ollama - for CPU) (sudo pacman -Syu ollama-cuda - for NVIDIA GPU) (sudo pacman -Syu ollama-rocm - for AMD GPU)
