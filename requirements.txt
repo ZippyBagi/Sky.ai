@@ -1,0 +1,8 @@
+ollama
+langchain
+numpy
+scikit-learn
+beautifulsoup4
+urllib3
+duckduckgo-search
+sys
