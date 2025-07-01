@@ -1,0 +1,21 @@
+# INSTALL INSTRUCTIONS
+
+Just a heads up, this is not that simple of an installation, mostly because I dont really want to deal with filepaths, but just follow along and everyhing should be fine
+
+FOR ARCH LINUX ONLY!!!
+
+1. Download the latest version of python
+
+2. Download Ollama (sudo pacman -Syu ollama - for CPU) (sudo pacman -Syu ollama-cuda - for NVIDIA GPU) (sudo pacman -Syu ollama-rocm - for AMD GPU)
+
+3. Clone the repository, or just download the important files
+
+4. Open request_handler.py - in here fine the COMMUNICATION_FILE_LOCATION variable, and change it to the location of the file.txt file that is located the same folder as the script.
+
+5. Open sky.sh - in here change venv_location, python_script_location and communication_file_location to their appropriate values, look at the existing locations for referance
+
+6. Install the zed text editor (sudo pacman -Syu zed) OR change the display editor in the sky.sh file
+
+7. Optional: Go into answer_web.py and answer.pt - here you can change what models ollama program will use
+
+8. Run the sky.sh script from the terminal (you can also setup a custom keybinding to run the script)
