@@ -7,7 +7,7 @@ FOR ARCH LINUX ONLY!!!
 
 #I Setting up the venv
 
-1. create a new python virtual environment with python venv -m venv
+1. create a new python virtual environment with python -m venv venv
 
 2. source into the venv with: source venv/bin/activate
 
