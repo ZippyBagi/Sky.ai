@@ -1,0 +1,1 @@
+The sum of 2 and 2 is 4.Answer: 4
